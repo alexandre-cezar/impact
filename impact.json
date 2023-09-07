@@ -1,0 +1,41 @@
+{
+  "name": "my_base_image",
+  "children": [
+    {
+      "name": "prod_repository",
+      "children": [
+        {
+          "name": "my_app_imageA",
+          "children": [
+            {
+              "name": "Cluster_A",
+              "value": 3938
+            },
+            {
+              "name": "Cluster_B",
+              "value": 3812
+            }
+          ]
+        },
+        {
+          "name": "dev_repository",
+          "children": [
+            {
+              "name": "my_app_imageB",
+              "children": [
+                {
+                  "name": "Cluster_C",
+                  "value": 3938
+                },
+                {
+                  "name": "Cluster_D",
+                  "value": 3812
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
